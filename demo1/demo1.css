@@ -1,0 +1,126 @@
+@font-face {
+    font-family: BaruSans;
+    src: url(fonts/BaruSansDemoMediumItalic-1jG5v.ttf);
+}
+@font-face {
+    font-family: Minomu;
+    src: url(fonts/MinomuMediumitalic-gxrKq.otf);
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#frame {
+    background: rgba(230, 230, 230, 0.9);
+    width: 50%;
+    padding-bottom: 50vh;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 20vh;
+    border-radius: 3vh;
+}
+#spacer {
+    width: 100%;
+    height: 0.5px;
+    background-color: white;
+}
+#headline {
+    margin: 10vh;
+    position: absolute;
+}
+#top_hd {
+    font-size: 14vh;
+    font-family: Minomu;
+    animation-name: hd_animation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    color: red;
+}
+#bottom_hd {
+    font-size: 7vh;
+    font-family: BaruSans;
+    animation-name: hd_animation;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes hd_animation {
+    0% {color: red;}
+    10% {color: orange;} 
+    20% {color: #996600;}
+    30% {color: rgb(106, 163, 106);}
+    40% {color: green;} 
+    50% {color: #009999;} 
+    60% {color: blue;} 
+    70% {color: purple;} 
+    70% {color: #990099;} 
+    80% {color: #cc6699;}
+    100% {color: red;}
+}
+#bg_layer1 {
+    width: 100vw;
+    height: 14.2vh;
+    position: absolute;
+    z-index: -1;
+    background-color: white;
+    display: inline-block;
+}
+#bg_layer2 {
+    width: 100vw;
+    height: 14.2vh;
+    margin-top: 14.2vh;
+    position: absolute;
+    z-index: -1;
+    background-color: white;
+    display: inline-block;
+}
+#bg_layer3 {
+    width: 100vw;
+    height: 14.2vh;
+    margin-top: calc(14.2vh*2);
+    position: absolute;
+    z-index: -1;
+    background-color: white;
+    display: inline-block;
+}
+#bg_layer4 {
+    width: 100vw;
+    height: 14.2vh;
+    margin-top: calc(14.2vh*3);
+    position: absolute;
+    z-index: -1;
+    background-color: white;
+    display: inline-block;
+}
+#bg_layer5 {
+    width: 100vw;
+    height: 14.2vh;
+    margin-top: calc(14.2vh*4);
+    position: absolute;
+    z-index: -1;
+    background-color: white;
+    display: inline-block;
+}
+#bg_layer6 {
+    width: 100vw;
+    height: 14.2vh;
+    margin-top: calc(14.2vh*5);
+    position: absolute;
+    z-index: -1;
+    background-color: white;
+    display: inline-block;
+}
+#bg_layer7 {
+    width: 100vw;
+    height: 14.2vh;
+    margin-top: calc(14.2vh*6);
+    position: absolute;
+    z-index: -1;
+    background-color: white;
+    display: inline-block;
+}
